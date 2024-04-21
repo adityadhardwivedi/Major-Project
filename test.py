@@ -17,7 +17,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 # Loading the saved models
 diabetes_model = pickle.load(open(f'{working_dir}/trainedmodel2.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(f'{working_dir}/trainedmodel1.sav', 'rb'))
+heartdisease_model = pickle.load(open(f'{working_dir}/trainedmodel1.sav', 'rb'))
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
