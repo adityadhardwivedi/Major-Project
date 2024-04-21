@@ -4,6 +4,7 @@ Created on Wed Apr 17 16:12:15 2024
 
 @author: aditya
 """
+import os
 import pickle
 import streamlit as st
 import pandas as pd
