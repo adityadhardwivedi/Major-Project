@@ -9,8 +9,6 @@ import pickle
 import streamlit as st
 import pandas as pd
 import base64
-
-
 from streamlit_option_menu import option_menu
 
 # getting the working directory of the main.py
