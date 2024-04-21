@@ -12,6 +12,9 @@ import base64
 
 from streamlit_option_menu import option_menu
 
+# getting the working directory of the main.py
+working_dir = os.path.dirname(os.path.abspath(__file__))
+
 # Loading the saved models
 diabetes_model = pickle.load(open('E:/multiple-disease-prediction-streamlit-app-main/trainedmodel2.sav', 'rb'))
 heartdisease_model = pickle.load(open('E:/multiple-disease-prediction-streamlit-app-main/trainedmodel1.sav', 'rb'))
