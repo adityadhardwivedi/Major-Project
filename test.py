@@ -8,7 +8,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 import base64
-pip install streamlit-option-menu
+
 
 from streamlit_option_menu import option_menu
 
