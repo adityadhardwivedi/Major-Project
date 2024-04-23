@@ -83,7 +83,7 @@ if selected == 'Diabetes Prediction':
     with col2:
         Glucose = st.number_input('Glucose Level', min_value=46, max_value=200)
         Insulin = st.number_input('Insulin Level', min_value=0, max_value=890)
-        BMI = st.number_input('BMI value', min_value=0, max_value=70)
+        BMI = st.number_input('BMI value', min_value=19, max_value=70)
     with col3:
         BloodPressure = st.number_input('Blood Pressure value', min_value=30, max_value=140)
         Age = st.number_input('Age between 20 to 100', min_value=20, max_value=100)
