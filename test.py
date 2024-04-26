@@ -136,7 +136,7 @@ if selected == 'Heart disease Prediction':
         fbs = st.number_input('Fasting Blood Sugar > 120 mg/dl', min_value=0, max_value=1)
         exang = st.number_input('Exercise Induced Angina', min_value=0, max_value=1)
     with col1:
-        oldpeak = st.number_input('ST depression induced by exercise', min_value=0, max_value=6)
+        oldpeak = st.number_input('ST depression induced by exercise', min_value=0.0, max_value=6.0, step=0.1)
         slope = st.number_input('Slope of the peak exercise ST segment', min_value=0, max_value=2)
     with col2:
         ca = st.number_input('Major vessels colored by flourosopy', min_value=0, max_value=4)
