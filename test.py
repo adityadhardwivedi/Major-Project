@@ -47,11 +47,11 @@ st.markdown(
         90% {{ color: magenta }}
         100% {{ width: 100%; color: red }}
     }}
-    # .typing-animation {{
-    #     overflow: hidden;
-    #     animation: typing 7s steps(40, end) infinite alternate;
-    #     white-space: nowrap;
-    # }}
+    .typing-animation {{
+        overflow: hidden;
+        animation: typing 7s steps(40, end) infinite alternate;
+        white-space: nowrap;
+    }}
     </style>
     """,
     unsafe_allow_html=True
