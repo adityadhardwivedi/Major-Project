@@ -79,7 +79,7 @@ if selected == 'Diabetes Prediction':
     with col1:
         Pregnancies = st.number_input('Number of Pregnancies', min_value=0, max_value=17)
         SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=100)
-        DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0.0, max_value=2.0, step=0.01)
+        DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0.0, max_value=2.0, step=0.001)
     with col2:
         Glucose = st.number_input('Glucose Level', min_value=46, max_value=200)
         Insulin = st.number_input('Insulin Level', min_value=0, max_value=890)
